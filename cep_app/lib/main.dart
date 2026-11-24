@@ -90,7 +90,7 @@ children:[
       padding: const EdgeInsets.symmetric(vertical: 1),
     ),
   ),
-  const SizedBox(height: 24),
+  const SizedBox(height: 25),
   if (_isLoading)
   const Center(child: CircularProgressIndicator()),
   if (_erroMessage != null)
